@@ -14,13 +14,10 @@ public class Artista {
     @Id
     private String id;
 
-    @DBRef
-    private Album artista;
-
     private String nome;
 
     @DBRef
-    private List<Album> albums;
+    private List<Album> albuns;
 
     @DBRef
     private List<Musica> musicas;
